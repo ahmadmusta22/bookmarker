@@ -1,0 +1,83 @@
+body {
+    background-color: #F7ECDE;
+}
+
+.btn-submit {
+    background-color: #D1512D;
+}
+
+.btn:hover {
+    color: white;
+    background-color: #D1512D;
+
+}
+
+.fa-book-bookmark {
+    color: black;
+}
+
+.fa-bookmark {
+
+    color: #3FA55B;
+}
+
+.fa-link {
+    color: black;
+}
+
+
+h1::after {
+    content: "";
+    border: black dashed 1px;
+    position: absolute;
+    width: 485%;
+    top: 160%;
+    right: -190%;
+
+
+}
+
+.btn-submit::after {
+    content: "";
+    border: black dashed 1px;
+    position: absolute;
+    width: 883%;
+    top: 160%;
+    right: -390%;
+
+}
+
+h1 {
+    font-family: "Pacifico", cursive;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: "Righteous", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+    color: #3FA55B;
+}
+
+.btn-visit {
+
+    background-color: #9EB23B;
+}
+
+.btn-delete {
+    background-color: #EB1D36;
+}
+
+.btn-visit:hover {
+
+    background-color: #8A9E23;
+}
+
+.btn-delete:hover {
+    background-color: #EB1D36;
+}
+
+

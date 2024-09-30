@@ -1,0 +1,832 @@
+/* navbar */
+.navbar {
+    z-index: 100000;
+}
+
+html {
+    scroll-padding-top: 72px;
+}
+
+.navbar-brand {
+    font-family: "Montserrat", sans-serif;
+}
+
+.navbar li {
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar-nav a {
+    position: relative;
+}
+
+.navbar .nav-link.active::after {
+    content: "";
+    width: 70%;
+    height: 3px;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    left: 10px;
+    top: 30px;
+
+}
+
+/* .navbar-nav a:hover::after {
+    width: 70%;
+} */
+
+
+/*  header */
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../imgs/bg.jpg');
+    height: 100vh;
+
+
+
+}
+
+.header-content h1 {
+    font-size: 50px;
+    font-weight: 800;
+    font-family: "Montserrat", sans-serif;
+}
+
+.header-content span {
+    font-size: 60px;
+    font-weight: 200;
+    font-family: "Montserrat", sans-serif;
+}
+
+.header-content li {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    background-color: #010D14;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#home h2::after {
+    content: '';
+    animation: changing 10s infinite linear;
+    font-weight: bolder;
+}
+
+
+@keyframes changing {
+    0% {
+        content: '|';
+    }
+
+    1.5% {
+        content: ' L|';
+    }
+
+    3% {
+        content: ' La|';
+    }
+
+    4.5% {
+        content: ' Lar|';
+    }
+
+    6% {
+        content: ' Larr|';
+    }
+
+    7.5% {
+        content: ' Larry|';
+    }
+
+    9% {
+        content: ' Larry |';
+    }
+
+    10.5% {
+        content: ' Larry D|';
+    }
+
+    12% {
+        content: ' Larry Da|';
+    }
+
+    13.5% {
+        content: ' Larry Dan|';
+    }
+
+    15% {
+        content: ' Larry Dani|';
+    }
+
+    16.5% {
+        content: ' Larry Danie|';
+    }
+
+    18% {
+        content: ' Larry Daniel|';
+    }
+
+    19.5% {
+        content: ' Larry Daniels|';
+    }
+
+    21% {
+        content: ' Larry Daniel|';
+    }
+
+    22.5% {
+        content: ' Larry Danie|';
+    }
+
+    24% {
+        content: ' Larry Dani|';
+    }
+
+    25.5% {
+        content: ' Larry Dan|';
+    }
+
+    27% {
+        content: ' Larry Da|';
+    }
+
+    28.5% {
+        content: ' Larry D|';
+    }
+
+    30% {
+        content: ' Larry |';
+    }
+
+    31.5% {
+        content: ' Larry|';
+    }
+
+    33% {
+        content: ' Larr|';
+    }
+
+    34.5% {
+        content: ' Lar|';
+    }
+
+    36% {
+        content: ' La|';
+    }
+
+    37.5% {
+        content: ' L|';
+    }
+
+    39% {
+        content: '|';
+    }
+
+    40.5% {
+        content: ' D|';
+    }
+
+    42% {
+        content: ' De|';
+    }
+
+    43.5% {
+        content: ' Dev|';
+    }
+
+    45% {
+        content: ' Deve|';
+    }
+
+    46.5% {
+        content: ' Devel|';
+    }
+
+    48% {
+        content: ' Develo|';
+    }
+
+    49.5% {
+        content: ' Develop|';
+    }
+
+    51% {
+        content: ' Develope|';
+    }
+
+    52.5% {
+        content: ' Developer|';
+    }
+
+    54% {
+        content: ' Develope|';
+    }
+
+    55.5% {
+        content: ' Develop|';
+    }
+
+    57% {
+        content: ' Develo|';
+    }
+
+    58.5% {
+        content: ' Devel|';
+    }
+
+    60% {
+        content: ' Deve|';
+    }
+
+    61.5% {
+        content: ' Dev|';
+    }
+
+    63% {
+        content: ' De|';
+    }
+
+    64.5% {
+        content: ' D|';
+    }
+
+    66% {
+        content: ' |';
+    }
+
+    67.5% {
+        content: ' D|';
+    }
+
+    69% {
+        content: ' De|';
+    }
+
+    70.5% {
+        content: ' Des|';
+    }
+
+    72% {
+        content: ' Desi|';
+    }
+
+    73.5% {
+        content: ' Desig|';
+    }
+
+    75% {
+        content: ' Design|';
+    }
+
+    76.5% {
+        content: ' Designe|';
+    }
+
+    78% {
+        content: ' Designer|';
+    }
+
+    79.5% {
+        content: ' Designe|';
+    }
+
+    81% {
+        content: ' Design|';
+    }
+
+    82.5% {
+        content: ' Desig|';
+    }
+
+    84% {
+        content: ' Desi|';
+    }
+
+    85.5% {
+        content: ' Des|';
+    }
+
+    87% {
+        content: ' De|';
+    }
+
+    88.5% {
+        content: ' D|';
+    }
+
+    100% {
+        content: ' |';
+    }
+
+
+}
+
+
+
+/* **************************************** */
+.about-me h3 {
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.about-me p {
+    font-family: "Poppins", sans-serif;
+}
+
+.spacing {
+    letter-spacing: 2px;
+}
+
+.progress {
+    --bs-progress-height: 1.9rem;
+}
+
+.left {
+    position: relative;
+
+}
+
+.left::after {
+    content: "";
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: -10%;
+    bottom: -30px;
+    background-image: url(../imgs/dots.png);
+
+    background-repeat: repeat;
+    z-index: -1;
+}
+
+.right p {
+    color: rgb(116, 129, 130);
+    line-height: 24px;
+}
+
+.dw-cv button {
+    color: white;
+    background-color: black;
+    transition: color 0.7s;
+    transition: background-color 0.7s;
+}
+
+.contactme button {
+    color: black;
+    background-color: white;
+    transition: color 0.7s;
+    transition: background-color 0.7s;
+}
+
+.dw-cv:hover button {
+    background-color: white;
+    color: black;
+}
+
+.contactme button:hover {
+    background-color: black;
+    color: white;
+}
+
+/* ************************************************** */
+
+.services {
+    background-color: #F7F7F7;
+}
+
+.icon-services i {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    background-color: #F7F7F7;
+    transition: color 0.7s;
+    transition: background-color 0.7s;
+
+}
+
+.services h1 {
+    position: relative;
+    z-index: 4;
+}
+
+.services h1::after {
+    content: "";
+    width: 10%;
+    height: 10px;
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: 7%;
+    left: 45%;
+    z-index: -1
+}
+
+.services-card:hover i {
+    background-color: black;
+    color: white;
+}
+
+.services-card h6 {
+    color: RGB(52, 52, 52);
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.services-card p {
+    color: RGB(116, 129, 130);
+
+}
+
+/* ************************************************* */
+.nav-tabs .nav-link {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border: 0;
+    color: black;
+}
+
+.nav-tabs {
+    border: 0;
+    display: flexbox;
+    justify-content: center;
+    color: black;
+    font-weight: 700;
+
+
+}
+
+.nav-tabs .nav-link.active {
+    position: relative;
+
+}
+
+.nav-tabs .nav-link.active::after {
+    content: " ";
+    width: 70%;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    right: 8px;
+    top: 35px;
+}
+
+.icons i {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icons i:hover {
+    background-color: white;
+    color: black;
+}
+
+.layer {
+    position: absolute;
+    top: 5px;
+    left: 30px;
+    right: 30px;
+    bottom: 5px;
+    /* width: 100%;
+    height: 100%; */
+    opacity: 0;
+    background-color: rgba(255, 255, 255, 0.95);
+    transition: opacity 0.7s;
+
+}
+
+.item:hover .layer {
+    opacity: 0.9;
+}
+
+
+
+/* .item::after{
+    content:'' ;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(248, 241, 241);
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.item:hover::after{
+    opacity: 1;
+} */
+
+.portfolio h1 {
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+}
+
+.portfolio p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+.portfolio h1::after {
+    content: "";
+    width: 10%;
+    height: 10px;
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: 20%;
+    left: 45%;
+    z-index: -1
+}
+
+/* ************************************************** */
+.testi {
+    background-color: #F7F7F7;
+}
+
+.testi h1 {
+    position: relative;
+    z-index: 4;
+}
+
+.testi h1::after {
+    content: "";
+    width: 10%;
+    height: 10px;
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -12%;
+    left: 45%;
+    z-index: -1
+}
+
+.carousel-indicators [data-bs-target] {
+
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #869791;
+}
+
+.testi h6 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color:
+        rgb(52, 52, 52);
+}
+
+.testi span {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(136, 136, 136);
+}
+
+.testi p {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(116, 129, 130);
+}
+
+/* ******************************* */
+
+.counter h3 {
+    font-size: 30px;
+    font-weight: 900;
+    font-family: "Montserrat", sans-serif;
+}
+
+.counter span {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color:
+        RGB(116, 129, 130);
+}
+
+/* *************************************** */
+
+.card-body {
+    background-color: #5B5B5B;
+}
+
+/* ************************** */
+
+.our-team h1 {
+    position: relative;
+    z-index: 4;
+}
+
+.our-team h1::after {
+    content: "";
+    width: 10%;
+    height: 10px;
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: 25%;
+    left: 45%;
+    z-index: -1
+}
+
+.our-team {
+    background-color: #F7F7F7;
+}
+
+.our-team h1 {
+    font-family: "Montserrat", sans-serif;
+}
+
+.our-team h2 {
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+
+.our-team span {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+
+.social {
+    position: absolute;
+    top: 8px;
+    bottom: 8px;
+    right: 10px;
+    left: 10px;
+    background-color: rgba(255, 255, 255, 0.95);
+    opacity: 0;
+    transition: opacity 0.7s, transform 0.7s;
+
+}
+
+.card:hover .social {
+    opacity: 1;
+    transform: rotateY(180deg);
+}
+
+.social a {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: black;
+    border: 1px transparent bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    transition: color 0.7s;
+    transition: background-color 0.7s;
+    transition: border 0.7s;
+
+}
+
+.div-iconooo {
+
+    transform: rotateY(180deg);
+}
+
+.social a:hover {
+    background-color: white;
+    color: black;
+
+}
+
+.inner-portfolio img {
+    transition: all 0.9s ease;
+}
+
+.inner-portfolio:hover img {
+    transform: scale(1.3);
+}
+
+/* ************************************ */
+
+.contact-us h1 {
+    font-family: "Montserrat", sans-serif;
+}
+
+.contact-us h1 {
+    position: relative;
+    z-index: 4;
+}
+
+.contact-us h1::after {
+    content: "";
+    width: 10%;
+    height: 10px;
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: 16%;
+    left: 45%;
+    z-index: -1
+}
+
+.contact-us h6 {
+    font-family: "Montserrat", sans-serif;
+    color:
+        RGB(52, 52, 52);
+    font-weight: 700;
+}
+
+.contact-us p {
+    font-family: "Montserrat", sans-serif;
+    color:
+        RGB(116, 129, 130);
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.contact-us i {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    background-color: #F7F7F7;
+    transition: color 0.7s;
+
+}
+
+.contact-us i {
+    transition: background-color 0.7s;
+}
+
+.contact-us i:hover {
+    background-color: black;
+    color: white;
+}
+
+.bg-form {
+    background-color: #F4F4F4;
+}
+
+.contact-us ::placeholder {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.contact-us #floatingTextarea2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: #F4F4F4;
+    border-color: transparent;
+    outline: 0;
+    box-shadow: none
+}
+
+
+.form-butt button {
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    transition: color 0.7s;
+    transition: background-color 0.7s;
+    color: white;
+    background-color: black;
+
+}
+
+.form-butt:hover button {
+    color: black;
+    background-color: white;
+
+}
+
+/* ********************************** */
+
+.footer {
+    background-color: #1C1C1C;
+    color:
+        rgb(116, 129, 130);
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+
+
+}
